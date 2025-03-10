@@ -6,7 +6,7 @@ var total = (orange+apple);
 // console.log(total);
 var restMoney = (moneyHave - total);
 console.log(restMoney);
-// problem:1
+// problem:2
 var math = 75.25;
 var bio = 65;
 var chemistry = 80;
@@ -14,4 +14,8 @@ var physics = 35.45;
 var bangla = 99.50;
 var total = ( math + bio + chemistry + physics + bangla);
 var average = total / 5;
-console.log(average.toFixed(3));
+console.log(average.toFixed(2));
+// problem:3
+var number = 119;
+var reminder = 119 % 5;
+console.log(reminder);
