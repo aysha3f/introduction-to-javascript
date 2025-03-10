@@ -19,3 +19,10 @@ console.log(average.toFixed(2));
 var number = 119;
 var reminder = 119 % 5;
 console.log(reminder);
+// problem:4
+var a = isNaN('11');
+var b = isNaN(2-10);
+var c = isNaN('tahi');
+console.log(a);
+console.log(b);
+console.log(c);
